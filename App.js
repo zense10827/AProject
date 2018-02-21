@@ -50,40 +50,136 @@ export default class App extends Component {
               <ScrollView
               horizontal= {true}>
                 <View style={styles.zeroBottom}>
-                  <View style={styles.view3} />
-                  <View style={styles.view3} />
+                  <View style={styles.brandCard} />
+                  <View style={styles.brandCard} />
                 </View>
                 <View style={styles.containerInCard}>
-                  <View style={styles.view3} />
-                  <View style={styles.view3} />
+                  <View style={styles.brandCard} />
+                  <View style={styles.brandCard} />
                 </View>
                 <View style={styles.containerInCard}>
-                  <View style={styles.view3} />
-                  <View style={styles.view3} />
+                  <View style={styles.brandCard} />
+                  <View style={styles.brandCard} />
                 </View>
                 <View style={styles.containerInCard}>
-                  <View style={styles.view3} />
-                  <View style={styles.view3} />
+                  <View style={styles.brandCard} />
+                  <View style={styles.brandCard} />
                 </View>
                 <View style={styles.containerInCard}>
-                  <View style={styles.view3} />
-                  <View style={styles.view3} />
+                  <View style={styles.brandCard} />
+                  <View style={styles.brandCard} />
                 </View>
                 <View style={styles.containerInCard}>
-                  <View style={styles.view3} />
-                  <View style={styles.view3} />
+                  <View style={styles.brandCard} />
+                  <View style={styles.brandCard} />
                 </View>
               </ScrollView>
             </Card>
           </Content>
           <Content>
             <Card>
+              <Text style={styles.textInCard}>Category</Text>
               <ScrollView
               horizontal= {true}>
-                <Text style={styles.textInCard}>Category</Text>
+                <View style={styles.zeroBottom}>
+                  <View style={styles.brandCard} />
+                </View>
+                <View style={styles.containerInCard}>
+                  <View style={styles.brandCard} />
+                </View>
+                <View style={styles.containerInCard}>
+                  <View style={styles.brandCard} />
+                </View>
+                <View style={styles.containerInCard}>
+                  <View style={styles.brandCard} />
+                </View>
+                <View style={styles.containerInCard}>
+                  <View style={styles.brandCard} />
+                </View>
+                <View style={styles.containerInCard}>
+                  <View style={styles.brandCard} />
+                </View>
               </ScrollView>
             </Card>
           </Content>
+        <Content>
+          <Card>
+            <Text style={styles.textInCard}>Suggestion</Text>
+            <ScrollView
+            horizontal= {true}>
+              <View style={styles.zeroBottom}>
+                <View style={styles.brandCard} />
+              </View>
+              <View style={styles.containerInCard}>
+                <View style={styles.brandCard} />
+              </View>
+              <View style={styles.containerInCard}>
+                <View style={styles.brandCard} />
+              </View>
+              <View style={styles.containerInCard}>
+                <View style={styles.brandCard} />
+              </View>
+              <View style={styles.containerInCard}>
+                <View style={styles.brandCard} />
+              </View>
+              <View style={styles.containerInCard}>
+                <View style={styles.brandCard} />
+              </View>
+            </ScrollView>
+          </Card>
+        </Content>
+        <Content>
+          <Card>
+            <Text style={styles.textInCard}>Top</Text>
+            <ScrollView
+            horizontal= {true}>
+              <View style={styles.zeroBottom}>
+                <View style={styles.clothCard} />
+              </View>
+              <View style={styles.containerInCard}>
+                <View style={styles.clothCard} />
+              </View>
+              <View style={styles.containerInCard}>
+                <View style={styles.clothCard} />
+              </View>
+              <View style={styles.containerInCard}>
+                <View style={styles.clothCard} />
+              </View>
+              <View style={styles.containerInCard}>
+                <View style={styles.clothCard} />
+              </View>
+              <View style={styles.containerInCard}>
+                <View style={styles.clothCard} />
+              </View>
+            </ScrollView>
+          </Card>
+        </Content>
+        <Content>
+          <Card>
+            <Text style={styles.textInCard}>Bottom</Text>
+            <ScrollView
+            horizontal= {true}>
+              <View style={styles.zeroBottom}>
+                <View style={styles.clothCard} />
+              </View>
+              <View style={styles.containerInCard}>
+                <View style={styles.clothCard} />
+              </View>
+              <View style={styles.containerInCard}>
+                <View style={styles.clothCard} />
+              </View>
+              <View style={styles.containerInCard}>
+                <View style={styles.clothCard} />
+              </View>
+              <View style={styles.containerInCard}>
+                <View style={styles.clothCard} />
+              </View>
+              <View style={styles.containerInCard}>
+                <View style={styles.clothCard} />
+              </View>
+            </ScrollView>
+          </Card>
+        </Content>
         </ScrollView>
       </Container>
     );
