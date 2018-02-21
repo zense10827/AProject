@@ -81,24 +81,12 @@ export default class App extends Component {
               <Text style={styles.textInCard}>Category</Text>
               <ScrollView
               horizontal= {true}>
-                <View style={styles.zeroBottom}>
-                  <View style={styles.brandCard} />
-                </View>
-                <View style={styles.containerInCard}>
-                  <View style={styles.brandCard} />
-                </View>
-                <View style={styles.containerInCard}>
-                  <View style={styles.brandCard} />
-                </View>
-                <View style={styles.containerInCard}>
-                  <View style={styles.brandCard} />
-                </View>
-                <View style={styles.containerInCard}>
-                  <View style={styles.brandCard} />
-                </View>
-                <View style={styles.containerInCard}>
-                  <View style={styles.brandCard} />
-                </View>
+                <View style={[styles.brandCard, styles.zeroBottom]} />
+                <View style={[styles.brandCard, styles.zeroLeft]} />
+                <View style={[styles.brandCard, styles.zeroLeft]} />
+                <View style={[styles.brandCard, styles.zeroLeft]} />
+                <View style={[styles.brandCard, styles.zeroLeft]} />
+                <View style={[styles.brandCard, styles.zeroLeft]} />
               </ScrollView>
             </Card>
           </Content>
@@ -107,24 +95,12 @@ export default class App extends Component {
             <Text style={styles.textInCard}>Suggestion</Text>
             <ScrollView
             horizontal= {true}>
-              <View style={styles.zeroBottom}>
-                <View style={styles.brandCard} />
-              </View>
-              <View style={styles.containerInCard}>
-                <View style={styles.brandCard} />
-              </View>
-              <View style={styles.containerInCard}>
-                <View style={styles.brandCard} />
-              </View>
-              <View style={styles.containerInCard}>
-                <View style={styles.brandCard} />
-              </View>
-              <View style={styles.containerInCard}>
-                <View style={styles.brandCard} />
-              </View>
-              <View style={styles.containerInCard}>
-                <View style={styles.brandCard} />
-              </View>
+              <View style={[styles.brandCard, styles.zeroBottom]} />
+              <View style={[styles.brandCard, styles.zeroLeft]} />
+              <View style={[styles.brandCard, styles.zeroLeft]} />
+              <View style={[styles.brandCard, styles.zeroLeft]} />
+              <View style={[styles.brandCard, styles.zeroLeft]} />
+              <View style={[styles.brandCard, styles.zeroLeft]} />
             </ScrollView>
           </Card>
         </Content>
@@ -133,24 +109,12 @@ export default class App extends Component {
             <Text style={styles.textInCard}>Top</Text>
             <ScrollView
             horizontal= {true}>
-              <View style={styles.zeroBottom}>
-                <View style={styles.clothCard} />
-              </View>
-              <View style={styles.containerInCard}>
-                <View style={styles.clothCard} />
-              </View>
-              <View style={styles.containerInCard}>
-                <View style={styles.clothCard} />
-              </View>
-              <View style={styles.containerInCard}>
-                <View style={styles.clothCard} />
-              </View>
-              <View style={styles.containerInCard}>
-                <View style={styles.clothCard} />
-              </View>
-              <View style={styles.containerInCard}>
-                <View style={styles.clothCard} />
-              </View>
+              <View style={[styles.clothCard, styles.zeroBottom]} />
+              <View style={[styles.clothCard, styles.zeroLeft]} />
+              <View style={[styles.clothCard, styles.zeroLeft]} />
+              <View style={[styles.clothCard, styles.zeroLeft]} />
+              <View style={[styles.clothCard, styles.zeroLeft]} />
+              <View style={[styles.clothCard, styles.zeroLeft]} />
             </ScrollView>
           </Card>
         </Content>
@@ -159,24 +123,12 @@ export default class App extends Component {
             <Text style={styles.textInCard}>Bottom</Text>
             <ScrollView
             horizontal= {true}>
-              <View style={styles.zeroBottom}>
-                <View style={styles.clothCard} />
-              </View>
-              <View style={styles.containerInCard}>
-                <View style={styles.clothCard} />
-              </View>
-              <View style={styles.containerInCard}>
-                <View style={styles.clothCard} />
-              </View>
-              <View style={styles.containerInCard}>
-                <View style={styles.clothCard} />
-              </View>
-              <View style={styles.containerInCard}>
-                <View style={styles.clothCard} />
-              </View>
-              <View style={styles.containerInCard}>
-                <View style={styles.clothCard} />
-              </View>
+              <View style={[styles.clothCard, styles.zeroBottom]} />
+              <View style={[styles.clothCard, styles.zeroLeft]} />
+              <View style={[styles.clothCard, styles.zeroLeft]} />
+              <View style={[styles.clothCard, styles.zeroLeft]} />
+              <View style={[styles.clothCard, styles.zeroLeft]} />
+              <View style={[styles.clothCard, styles.zeroLeft]} />
             </ScrollView>
           </Card>
         </Content>

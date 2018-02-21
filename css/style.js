@@ -49,5 +49,8 @@ module.exports = StyleSheet.create({
   containerInCard: {
     marginLeft: -10,
     marginBottom: 0,
-  }
+  },
+  zeroLeft: {
+      marginLeft: 0
+    }
 });
