@@ -48,32 +48,31 @@ export default class App extends Component {
             <Card>
               <Text style={styles.textInCard}>Official Store</Text>
               <ScrollView
-              style={styles.zeroBottom}
               horizontal= {true}>
-                <Container style={styles.zeroBottom}>
+                <View style={styles.zeroBottom}>
                   <View style={styles.view3} />
                   <View style={styles.view3} />
-                </Container>
-                <Container style={styles.containerInCard}>
+                </View>
+                <View style={styles.containerInCard}>
                   <View style={styles.view3} />
                   <View style={styles.view3} />
-                </Container>
-                <Container style={styles.containerInCard}>
+                </View>
+                <View style={styles.containerInCard}>
                   <View style={styles.view3} />
                   <View style={styles.view3} />
-                </Container>
-                <Container style={styles.containerInCard}>
+                </View>
+                <View style={styles.containerInCard}>
                   <View style={styles.view3} />
                   <View style={styles.view3} />
-                </Container>
-                <Container style={styles.containerInCard}>
+                </View>
+                <View style={styles.containerInCard}>
                   <View style={styles.view3} />
                   <View style={styles.view3} />
-                </Container>
-                <Container style={styles.containerInCard}>
+                </View>
+                <View style={styles.containerInCard}>
                   <View style={styles.view3} />
                   <View style={styles.view3} />
-                </Container>
+                </View>
               </ScrollView>
             </Card>
           </Content>
