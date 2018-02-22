@@ -33,14 +33,6 @@ module.exports = StyleSheet.create({
     height: 80,
     //paddingHorizontal : 30
   },
-  clothCard: {
-      marginTop: 0,
-      backgroundColor: 'grey',
-      width: 80,
-      margin: 10,
-      height: 120,
-      //paddingHorizontal : 30
-    },
   textInCard: {
     marginLeft: 10,
     marginBottom: 5,
