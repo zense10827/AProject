@@ -10,16 +10,14 @@ export default class BottomCard extends Component {
           <Card style={{flex: 0}}>
             <CardItem>
               <Body>
-                <Image source={{uri: 'http://159.65.9.50/wp-content/uploads/2018/02/Screenshot-from-2017-12-08-23-05-34.png'}} style={{height: 200, width: 200, flex: 1}}/>
-                <Text>
-                  This is Nike Pants
-                </Text>
+                <Image source={{uri: this.props.image }} style={{height: 200, width: 200, flex: 1}}/>
+                <Text>{this.props.text}</Text>
               </Body>
             </CardItem>
             <CardItem>
               <Left>
                 <Button transparent>
-                  <Text>1290 Baht</Text>
+                  <Text>{this.props.price} Baht</Text>
                 </Button>
               </Left>
             </CardItem>

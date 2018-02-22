@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import { Container, Header, Item, Input, Icon, Button, Text, Body, Content, Card, CardItem } from 'native-base';
 import { View, StyleSheet, ScrollView, Dimensions } from 'react-native';
 
+import PromotionCard from './component/PromotionCard.js';
+import SuggestionCard from './component/SuggestionCard.js';
+import CategoryCard from './component/CategoryCard.js';
 import TopCard from './component/TopCard.js';
 import BottomCard from './component/BottomCard.js';
 
@@ -112,9 +115,9 @@ export default class App extends Component {
             <Text style={styles.textInCard}>Top</Text>
             <ScrollView
             horizontal= {true}>
-              <TopCard />
-              <TopCard />
-              <TopCard />
+              <TopCard image="http://159.65.9.50/wp-content/uploads/2018/02/Screenshot-from-2017-12-08-23-05-34.png" price="699" text="This is Adidas T-Shirt."/>
+              <TopCard image="http://159.65.9.50/wp-content/uploads/2018/02/Screenshot-from-2017-12-08-23-05-34.png" price="699" text="This is Adidas T-Shirt."/>
+              <TopCard image="http://159.65.9.50/wp-content/uploads/2018/02/Screenshot-from-2017-12-08-23-05-34.png" price="699" text="This is Adidas T-Shirt."/>
             </ScrollView>
           </Card>
         </Content>
@@ -123,9 +126,9 @@ export default class App extends Component {
             <Text style={styles.textInCard}>Bottom</Text>
             <ScrollView
             horizontal= {true}>
-              <BottomCard />
-              <BottomCard />
-              <BottomCard />
+              <BottomCard image="http://159.65.9.50/wp-content/uploads/2018/02/Screenshot-from-2017-12-08-23-05-34.png" price="1290" text="This is Nike Pants."/>
+              <BottomCard image="http://159.65.9.50/wp-content/uploads/2018/02/Screenshot-from-2017-12-08-23-05-34.png" price="1290" text="This is Nike Pants."/>
+              <BottomCard image="http://159.65.9.50/wp-content/uploads/2018/02/Screenshot-from-2017-12-08-23-05-34.png" price="1290" text="This is Nike Pants."/>
             </ScrollView>
           </Card>
         </Content>
