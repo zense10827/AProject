@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import { Container, Header, Item, Input, Icon, Button, Text, Body, Content, Card, CardItem } from 'native-base';
 import { View, StyleSheet, ScrollView, Dimensions } from 'react-native';
 
+import TopCard from './component/TopCard.js';
+import BottomCard from './component/BottomCard.js';
+
 const { width } = Dimensions.get('window');
 const styles = require('./css/style.js');
 
@@ -109,12 +112,9 @@ export default class App extends Component {
             <Text style={styles.textInCard}>Top</Text>
             <ScrollView
             horizontal= {true}>
-              <View style={[styles.clothCard, styles.zeroBottom]} />
-              <View style={[styles.clothCard, styles.zeroLeft]} />
-              <View style={[styles.clothCard, styles.zeroLeft]} />
-              <View style={[styles.clothCard, styles.zeroLeft]} />
-              <View style={[styles.clothCard, styles.zeroLeft]} />
-              <View style={[styles.clothCard, styles.zeroLeft]} />
+              <TopCard />
+              <TopCard />
+              <TopCard />
             </ScrollView>
           </Card>
         </Content>
@@ -123,12 +123,9 @@ export default class App extends Component {
             <Text style={styles.textInCard}>Bottom</Text>
             <ScrollView
             horizontal= {true}>
-              <View style={[styles.clothCard, styles.zeroBottom]} />
-              <View style={[styles.clothCard, styles.zeroLeft]} />
-              <View style={[styles.clothCard, styles.zeroLeft]} />
-              <View style={[styles.clothCard, styles.zeroLeft]} />
-              <View style={[styles.clothCard, styles.zeroLeft]} />
-              <View style={[styles.clothCard, styles.zeroLeft]} />
+              <BottomCard />
+              <BottomCard />
+              <BottomCard />
             </ScrollView>
           </Card>
         </Content>
